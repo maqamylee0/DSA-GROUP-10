@@ -1,0 +1,187 @@
+html
+{
+	overflow: auto;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background:  rgba(45, 103, 60, 0.8);
+	font-size: 70%;
+	font-family: verdana;
+	color: #DDD;
+}
+
+#centrecontainer
+{
+	width: 90%;
+	margin: 50px auto;
+}
+
+#outercontainer
+{
+	width:100%;
+}
+
+#container    
+{
+	width: 100%;
+	max-height: 1200px;
+	background: #444;
+}
+
+#headercont
+{
+	width: 100%;
+	height: 50px;
+	background:  rgba(45, 103, 60, 0.8);
+	letter-spacing: -1px;
+	color: #FFF;
+	padding: 0;
+}
+
+#headercont ul, #footercont ul
+{
+	margin: 0;
+	padding: 15px;
+	list-style-type: none;
+	text-align: right;
+}
+
+#headercont ul li, #footercont ul li
+{
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+#headercont ul li a, #footercont ul li a
+{
+	color: #E8FF9F;
+	text-decoration: none;
+}
+
+#headercont ul li a:hover, #footercont ul li a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#maincont
+{
+	width: 100%;
+	background: #444;
+}
+
+#mainleft
+{
+	width: 100%;
+	background: #333;
+	overflow: auto;
+	padding: 0px;
+	padding-bottom: 15px;
+}
+
+#mainleft h1
+{
+	margin: 0;
+	padding: 15px;
+	font-weight: normal;
+	font-family: arial;
+	font-size: 300%;
+	letter-spacing: -2px;
+	color: #AAA;
+}
+
+#mainleft h1 span
+{
+	color:  rgba(45, 103, 60, 0.8);
+}
+
+#mainright
+{
+	width: 100%;
+	background: #444;
+	padding: 0;
+	overflow: auto;
+	line-height: 150%;
+}
+
+#mainright p
+{
+	margin: 0 0 15px 0;
+	padding: 15px;
+}
+
+#mainright h1, h2, h3
+{
+	margin: 0 0 10px 0;
+	padding: 15px;
+	font-size: 180%;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-family: arial, verdana;
+	border-bottom: 1px solid #777;
+}
+
+#menucont
+{
+	width: 100%;
+	clear: both;
+	min-height: 75px;
+	overflow: auto;
+	background:  rgba(45, 103, 60, 0.8);
+	border-bottom: 1px solid rgba(45, 103, 60, 0.8);
+	padding: 0;
+}
+
+#menucont ul, #mainleft ul
+{
+	margin: 0;
+	padding: 19px 0 0 22px;
+	list-style-type: none;
+}
+
+#menucont ul li, #mainleft ul li
+{
+	display: inline;
+}
+
+#menucont ul li a, #mainleft ul li a
+{
+	float: left;
+	padding: 10px 15px;
+	margin: 10px 10px 0 0;
+	background: rgba(45, 103, 60, 0.8);
+	color: #E7FF9B;
+	border: 2px solid  rgba(45, 103, 60, 0.8);
+	text-decoration: none;
+}
+
+#menucont ul li a.active
+{
+	color: #FFF;
+	text-decoration: none;
+	border: 2px solid rgba(45, 103, 60, 0.8);
+	background:  rgba(45, 103, 60, 0.8);
+}
+
+#menucont ul li a:hover, #mainleft ul li a:hover
+{
+	background:  rgba(45, 103, 60, 0.8);
+	color: #FFF;
+	text-decoration: none;
+	border: 2px solid rgba(45, 103, 60, 0.8);
+}
+
+#footercont
+{
+	clear:both;
+	width: 100%;
+	height: 48px;
+	background: rgba(45, 103, 60, 0.8);
+	color: #E8FF9F;
+	border-top: 1px solid rgba(45, 103, 60, 0.8);
+	letter-spacing: -1px;
+	padding: 0;
+}
