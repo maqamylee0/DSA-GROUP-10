@@ -866,7 +866,7 @@
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="css/style1.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
   <style type="text/css">
     #group_table{
@@ -908,7 +908,7 @@
         margin: 0;
       }
       #hero{
-        height: 800px;
+        height: 780px;
       }
     }
   </style>
