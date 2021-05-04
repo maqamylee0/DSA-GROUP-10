@@ -865,52 +865,10 @@
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <style type="text/css">
-    #group_table{
-      width:500px;
-      margin: 0 auto;
-      padding:0;
-      text-align: left;
-      color: white;
-    }
-    #group_table tr{
-      border-bottom: 1px solid white;
-    }
-    li{
-      padding-left: 30px;
-      padding-top: 5px;
-    }
-    #video_buttons{
-      display: block;
-      width: 440px;
-      margin: 0 auto;
-    }
-    #video_buttons li{
-      list-style-type: none;
-      float: left;
-      width: 150px;
-      padding: 5px 10px;
-      margin:20px;
-      color: white;
-      text-align: center;
-      border-radius: 10px;
-      background-color: #5cb874;
-    }
-    #video_buttons li a{
-      color: white;
-    }
-    @media(max-width: 500px){
-      #group_table{
-        width: 100%;
-        margin: 0;
-      }
-      #hero{
-        height: 780px;
-      }
-    }
+    
   </style>
   
 </head>
