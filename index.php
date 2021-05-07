@@ -846,7 +846,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Group 10 Data Structures And Algoritms</title>
+  <title>Group 10 Data Structures And Algorithms</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -935,11 +935,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">DATA STRUCTURES AND ALGORITHMS</a></h1>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar navbar-default">
         <ul>
+          <li> <h1 class="logo me-auto"><a>DATA STRUCTURES AND ALGORITHMS</a></h1></li>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#topics"><?php echo $topic_text ?></a></li>
           <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
