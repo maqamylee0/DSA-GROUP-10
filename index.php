@@ -938,7 +938,7 @@
       
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      <nav id="navbar" class="navbar navbar-default">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <ul>
           <li> <h1 class="logo me-auto"><a>DATA STRUCTURES AND ALGORITHMS</a></h1></li>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
