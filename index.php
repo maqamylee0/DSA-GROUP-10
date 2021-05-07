@@ -1188,8 +1188,7 @@
     </section><!-- End Why Us Section -->
     <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#topics"><?php echo $topic_text ?></a></li>
+          
           <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Notes</span> <i class="bi bi-chevron-right"></i></a>
