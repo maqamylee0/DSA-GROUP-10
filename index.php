@@ -1186,6 +1186,51 @@
         </div>
       </div>
     </section><!-- End Why Us Section -->
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#topics"><?php echo $topic_text ?></a></li>
+          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Notes</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="index.php?ty=n&t=st">Stacks</a></li>
+                <li><a href="index.php?ty=n&t=q">Queues</a></li>
+                <li><a href="index.php?ty=n&t=l">Lists</a></li>
+                <li><a href="index.php?ty=n&t=so">Sorting</a></li>
+                <li><a href="index.php?ty=n&t=se">Searching</a></li>
+                <li><a href="index.php?ty=n&t=t">Trees</a></li>
+                <li><a href="index.php?ty=n&t=g">Graphs</a></li>
+                <li><a href="index.php?ty=n&t=h">Hashing</a></li>
+              </ul>
+              </li>
+              <li class="dropdown"><a href="#video.php"><span>Videos</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.php?ty=v&t=i">Introduction</a></li>
+                  <li><a href="index.php?ty=v&t=st">Stacks</a></li>
+                  <li><a href="index.php?ty=v&t=q">Queues</a></li>
+                  <li><a href="index.php?ty=v&t=l">Lists</a></li>
+                  <li><a href="index.php?ty=v&t=t">Trees</a></li>
+                  <li><a href="index.php?ty=v&t=g">Graphs</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#video.php"><span>Implementation</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="index.php?ty=i&t=fi">Fibonacci</a></li>
+                  <li><a href="index.php?ty=i&t=fa">Factorial</a></li>
+                  <li><a href="index.php?ty=i&t=tow">Tower of Hanoi</a></li>
+                  <li><a href="index.php?ty=i&t=st">Stacks</a></li>
+                  <li><a href="index.php?ty=i&t=q">Queue</a></li>
+                  <li><a href="index.php?ty=i&t=cq">Circular Queue</a></li>
+                  <li><a href="index.php?ty=i&t=l">Linked Lists</a></li>
+                  <li><a href="index.php?ty=i&t=h">Hash Table</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
   </main><!-- End #main -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Vendor JS Files -->
